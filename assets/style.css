@@ -5,6 +5,7 @@
 }
 
 /* questa istruzione ci consente lo scroll morbido della pagina al click delle ancore */
+
 html{
   scroll-behavior: smooth;
 }
@@ -64,6 +65,7 @@ section p{
 }
 
 /* per evitare che le ancore finiscano dietro il menu fixed */
+
 section::before{
   content: '';
   display: block;
